@@ -26,7 +26,23 @@ body{
 
 input{
     width: 200px;
-    height: 200px;
+    background: black;
+    color: white;
     border: solid transparent;
-    
+}
+
+button {
+    width: 48px;
+    height: 38px;
+    margin: 5px;
+    border: 1px solid transparent;
+    background: blue;
+    color: white;
+    transition: all .5s;
+}
+
+button:hover{
+    background: white;
+    color: black;
+    transition: all .5s;
 }
